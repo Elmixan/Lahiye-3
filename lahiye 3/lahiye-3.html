@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="lahiye-3.css">
+    </link>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <img src="Asset 1@3x 1.png">
+            <ul>
+                <li><a href="#1">БАНК</a></li>
+                <li><a href="#2">БИЗНЕС</a></li>
+                <li><a href="#3">ИНВЕСТИЦИИ</a></li>
+                <li><a href="#4">СТРАХОВАНИЕ</a></li>
+                <li><a href="#5">МОБАЙЛ</a></li>
+                <li><a href="#6">ПУТЕШЕСТВИЯ</a></li>
+                <li><a href="#7">РАЗВЛЕЧЕНИЯ</a></li>
+            </ul>
+            <a href="index.html" class="btn">ВОЙТИ</a>
+        </div>
+
+    </header>
+
+
+    <h1>Конвертер валют онлайн</h1>
+    <div class="MainSection">
+        <div class="Left-Side">
+            <p>У меня есть </p>
+            <div class="Selection">
+                <input id="RUB1" type="radio" name="currency01" value="RUB" checked>
+                <label for="RUB1">RUB</label>
+                <input id="USD1" type="radio" name="currency01" value="USD">
+                <label for="USD1">USD</label>
+                <input id="AZE1" type="radio" name="currency01" value="AZE">
+                <label for="AZE1">AZN</label>
+                <input id="TRY1" type="radio" name="currency01" value="TRY">
+                <label for="TRY1">TRY</label>
+            </div>
+
+            <div class="Area">
+                <input class="from" value="1" type="number" placeholder="введите значение">
+                <p class="ff"></p>
+            </div>
+        </div>
+        <div class="Right-Side">
+            <p>Хочу приобрести</p>
+            <div class="Selection">
+                <input id="RUB2" type="radio" name="currency02" value="RUB">
+                <label for="RUB2">RUB</label>
+                <input id="USD2" type="radio" name="currency02" value="USD" checked>
+                <label for="USD2">USD</label>
+                <input id="AZE2" type="radio" name="currency02" value="AZE">
+                <label for="AZE2">AZN</label>
+                <input id="TRY2" type="radio" name="currency02" value="TRY">
+                <label for="TRY2">TRY</label>
+            </div>
+            <div class="Area">
+                <input readonly value="0.016544" class="to">
+                <p class="ee"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="lahiye-3.js"></script>
+</body>
+
+</html>
